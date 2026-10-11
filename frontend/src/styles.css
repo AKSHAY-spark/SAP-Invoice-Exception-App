@@ -16,3 +16,7 @@ tr.row{cursor:pointer}tr.row:hover{background:#eef4fb}
 .two{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}.row2{display:flex;gap:6px;margin:6px 0;flex-wrap:wrap}
 .btn{background:var(--blue);color:#fff;border:0;border-radius:4px;padding:6px 12px;cursor:pointer}.btn.red{background:var(--red)}.err{color:var(--red)}
 .bar{display:grid;grid-template-columns:120px 1fr 80px;gap:8px;align-items:center;margin:4px 0}.bar i{display:block;height:12px;background:var(--blue);border-radius:3px}
+.form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:10px 0}
+.form-field{display:flex;flex-direction:column;gap:3px}
+.form-field label{font-size:12px;font-weight:600;color:var(--mut)}
+.form-field .err{font-size:12px}
